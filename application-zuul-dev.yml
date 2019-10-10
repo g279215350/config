@@ -1,0 +1,14 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: GXSHOPPING-ZUUL
+
+zuul:
+  ignoredServices: '*' #只能通过路由访问，不能使用服务名访问
+  routes:
+    plat:
+      serviceId: GXSHOPPING-PLAT
+      path: /plat/**
+  prefix: /services
