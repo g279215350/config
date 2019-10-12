@@ -11,4 +11,7 @@ zuul:
     plat:
       serviceId: GXSHOPPING-PLAT
       path: /plat/**
+    product:
+      serviceId: GXSHOPPING-PRODUCT
+      path: /product/**
   prefix: /services
