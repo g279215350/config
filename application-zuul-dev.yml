@@ -14,4 +14,7 @@ zuul:
     product:
       serviceId: GXSHOPPING-PRODUCT
       path: /product/**
+    common:
+      serviceId: GXSHOPPING-COMMON
+      path: /common/**
   prefix: /services
