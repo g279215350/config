@@ -1,11 +1,12 @@
 server:
   port: 8103
   max-http-header-size: 10000000 #服务器允许的请求头的最大长度
+  
+spring:
+  application:
+    name: GXSHOPPING-COMMON
   servlet:
     multipart:
       max-file-size: 100MB  #设置单个文件上传大小
       max-request-size: 100MB	#设置请求大小（设置总上传数据大小）
       enabled: true
-spring:
-  application:
-    name: GXSHOPPING-COMMON
