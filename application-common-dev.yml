@@ -10,3 +10,6 @@ spring:
       max-file-size: 100MB  #设置单个文件上传大小
       max-request-size: 100MB	#设置请求大小（设置总上传数据大小）
       enabled: true
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9300
